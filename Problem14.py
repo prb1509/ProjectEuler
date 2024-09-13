@@ -17,6 +17,4 @@ while n < 1000000:
     if current_count > max_count:
         max_n = n 
         max_count = current_count
-    # max_count = max(max_count,count_collatz(n))
-    # print(max_count)
 print(max_n)
